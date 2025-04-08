@@ -1,24 +1,23 @@
 body{
-    background-color: #D4A373;
+    background-color: black;
     font-family:'Courier New', Courier, monospace;
     color: #78beff;
     align-content: center;
     text-align: center;
-    font-size: 1.37rem;
-    margin-left: 3cm;
-    margin-right: 3cm;
+    font-size: 1.375rem;
+    margin-left: 7cm;
+    margin-right: 7cm;
    
 }
 /* typewriter animation */
 .heading{
     font-size: larger;
-    flex: content;
     color: #FFC8DD;
    text-decoration: underline;
     overflow: hidden;
     white-space: nowrap;
     margin: 0 auto;
-    animation:  typing 3s steps(30, end), blink-caret 0.5s step-end infinite;
+    animation:  typing 4s steps(30, end), blink-caret 0.5s step-end infinite;
 }
 
 @keyframes typing {
@@ -32,15 +31,19 @@ body{
 }
 /* end of animation */
 
+.sub-heading{
+    color: #FFC8DD;
+    text-decoration: underline;
+}
 .home-button{
-    padding: 1.875rem;
+    padding: 2rem;
   text-align: center;
-  margin-bottom: 0.625rem;
+  margin-bottom: 0.6rem;
   color:white;
   background-color: #FFC8DD;
 }
 a{
-    color:white;
+    color: black;
 }
 .list{
     text-align: left;
