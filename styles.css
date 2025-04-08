@@ -1,8 +1,50 @@
 body{
     background-color: black;
-    font-family: monospace;
-    color: turquoise;
-    font-size: 16px;
+    font-family:'Courier New', Courier, monospace;
+    color: #78beff;
     align-content: center;
     text-align: center;
+    font-size: 1.37rem;
+    margin-left: 3cm;
+    margin-right: 3cm;
+   
+}
+/* typewriter animation */
+.heading{
+    font-size: larger;
+    flex: content;
+    color: #FFC8DD;
+   text-decoration: underline;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    animation:  typing 3s steps(30, end), blink-caret 0.5s step-end infinite;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+  
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #FFC8DD }
+}
+/* end of animation */
+
+.home-button{
+    padding: 1.875rem;
+  text-align: center;
+  margin-bottom: 0.625rem;
+  color:white;
+  background-color: #FFC8DD;
+}
+a{color:#a2d2ff;}
+
+.list{text-align: left;}
+
+a:hover{
+    color: black;
+    background-color:#ffd6ff;
+    text-decoration: none;
 }
