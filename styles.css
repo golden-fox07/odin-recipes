@@ -5,32 +5,69 @@ body{
     align-content: center;
     text-align: center;
     font-size: 1.37rem;
-    margin-left: 3cm;
-    margin-right: 3cm;
-   
-}
-/* typewriter animation */
-.heading{
-    font-size: larger;
-    flex: content;
-    color: #FFC8DD;
-   text-decoration: underline;
-    overflow: hidden;
-    white-space: nowrap;
-    margin: 0 auto;
-    animation:  typing 3s steps(30, end), blink-caret 0.5s step-end infinite;
+    cursor: pointer;
 }
 
-@keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
+header{
+    background-color: white;  
+    margin-bottom: 50px; 
+    height: 100px; 
+    display: flex;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    align-items: center; 
+    flex: content;
+    color: #221a1d;
+    overflow: hidden;
+    text-align: left;
+    background-color:#48cae4 ; 
 }
-  
-@keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: #FFC8DD }
+
+nav ul {
+    list-style: none;
+    padding: 2cm;
+    display: flex;
 }
-/* end of animation */
+
+nav li {
+    margin-left: 20px;
+}
+
+nav a {
+    color:black;
+    text-decoration: none;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    padding: 16px;
+    background-color:#1f1f1f;
+    color: #ffff;
+    font-size: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+   
+}
+
+.heading{
+    flex: content;
+    color: #221a1d;
+    overflow: hidden;
+    text-align: left;
+    margin-left: 2cm;
+}
+
+.main-heading{
+    text-decoration: underline;
+    font-size: larger;
+    color: azure;
+    margin-bottom: 1.5cm;
+    color: #48cae4;
+    font-size:150%;
+}
 
 .home-button{
     padding: 1.875rem;
@@ -39,9 +76,12 @@ body{
   color:white;
   background-color: #FFC8DD;
 }
-a{color:#a2d2ff;}
 
-.list{text-align: left;}
+a{color:#48cae4;}
+
+.list {
+    list-style-position: inside;
+}
 
 a:hover{
     color: black;
